@@ -27,11 +27,10 @@ public class MaxSubarraySum {
      * 
      * @param arr Entered array by the user
      */
-    public static int printArray(int[] arr) {
+    public static void printArray(int[] arr) {
         for (int num : arr) {
             System.out.print(num + " ");
         }
-        return 0;
     }
 
     public static void main(String[] args) {
